@@ -1,0 +1,27 @@
+[project]
+name = "python-for-OOP"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Arun Khattri", email = "arunkhattri@outlook.com"},
+]
+dependencies = []
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "GPLv3"}
+
+
+[tool.pdm]
+package-type = "application"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.12.1",
+    "isort>=5.13.2",
+    "mypy>=1.8.0",
+    "python-lsp-server>=1.9.0",
+    "flake8>=7.0.0",
+    "pylint>=3.0.3",
+    "pytest>=7.4.4",
+    "ipython>=8.20.0",
+]
